@@ -72,7 +72,7 @@ Si te sale un mensaje de error diciendo que no tienes permisos para ejecutar scr
 * `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
 
 ## Tenga en cuenta
-
+* Debe utilizar una version de python 3.11 o superior
 * El proyecto incluye un conjunto de pruebas que puedes utilizar para verificar el cumplimiento de los 
 requisitos establecidos. Para ejecutar las pruebas, debes instalar la dependencia pytest.
 * Para que las pruebas funcionen adecuadamente debes implementar el código respetando los nombres y la 
