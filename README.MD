@@ -47,7 +47,7 @@ debes tener en cuenta lo siguiente:
 implementar la lógica para verificar si el mensaje ingresado cumple con las restricciones en la descripción superior de cada clase, en caso de que no se cumpla alguna de las restricciones, debe levantarse un error de acuerdo a la siguiente jerarquía de errores:
 ![Modelo de clases](./assets/modelo_errores.drawio.png)
 * Tenga en cuenta, que si el error es por contenido, o sea, el mensaje tiene numeros o caracteres no permitidos porque no están en el codigo ascii (por ejemplo al llevar acentos), debera incluir en el constructor un mensaje donde detalle en cuál posición se encuentra los caracteres que causan el error y cuál es el caracter en específico por orden de aparición.
-* Si existe más de un tipo de error en un mensaje, levantar un grupo de errores con cada error que se deberia levantar para mas informacion si es requerido visite https://docs.python.org/es/3/tutorial/errors.html
+* Si existe más de un tipo de error en un mensaje, levantar un grupo de errores con cada error que se deberia levantar para más informacion si es requerido visite https://docs.python.org/es/3/tutorial/errors.html
 * De ser necesario, puede agregar metodos en la clase que lo requiera para facilitar el desarrollo de la actividad, se sugiere que por cada metodo que agrega, realice al menos una prueba unitaria que verifique que el metodo funciona correctamente. 
 * Los métodos `encriptar` y `desencriptar` en las clases `ReglaCifradoTraslacion` y `ReglaCifradoNumerico`
 son las implementaciones de los métodos abstractos de la clase padre. En estos métodos debes implementar 
@@ -72,7 +72,6 @@ Si te sale un mensaje de error diciendo que no tienes permisos para ejecutar scr
 * `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
 
 ## Tenga en cuenta
-* Debe utilizar una version de python 3.11 o superior
 * El proyecto incluye un conjunto de pruebas que puedes utilizar para verificar el cumplimiento de los 
 requisitos establecidos. Para ejecutar las pruebas, debes instalar la dependencia pytest.
 * Para que las pruebas funcionen adecuadamente debes implementar el código respetando los nombres y la 
